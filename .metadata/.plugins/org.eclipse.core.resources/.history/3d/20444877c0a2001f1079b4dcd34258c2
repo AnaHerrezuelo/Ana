@@ -64,8 +64,7 @@ public class prueba {
 			};
 		*/
 
-		
-		/* MATRIX OF DECIMALS (WORKS)        
+		        
 		        System.out.print("Enter the number of rows and columns: ");
 		        int rows = keyboard.nextInt();
 		        int columns = rows;
@@ -89,45 +88,9 @@ public class prueba {
 		            }
 		            System.out.println(" "); // Move to the next row
 		        }
-		 */
-		
-		
-		
-		
-		      
-				//System.out.print("Give me the number: ");
-		        int size = 8;
-		    		        
-		        int[][] matrix = new int[size][size];
-		        
-		        for (int i = 0; i < size; i++) {
-		            for (int j = 0; j < size; j++) {
-		                if (i == j) {
-		                    matrix[i][j] = 1; // Set 1 on the main diagonal
-		                } else {
-		                    matrix[i][j] = 0; // Set 0 elsewhere
-		                }
-		            }
-		        }
-		        
 
-		        for (int i = 0; i < size; i++) {
-		            for (int j = 0; j < size; j++) {
-		                System.out.print(matrix[i][j] + " ");
-		            }
-		            System.out.println(); // Move to the next row
-		        }
-		    
-		
-
-		
-		
-		
-		
-		
-		
-		
-		
+		        // Close the scanner
+		        //scanner.close();		
 		
 		
 	};

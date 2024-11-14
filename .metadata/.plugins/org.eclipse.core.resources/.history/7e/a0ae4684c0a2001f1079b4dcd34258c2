@@ -95,7 +95,7 @@ public class prueba {
 		
 		
 		      
-				//System.out.print("Give me the number: ");
+				System.out.print("Give me the number: ");
 		        int size = 8;
 		    		        
 		        int[][] matrix = new int[size][size];
