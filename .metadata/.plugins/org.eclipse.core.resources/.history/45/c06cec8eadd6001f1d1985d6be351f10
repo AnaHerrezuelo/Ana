@@ -1,0 +1,86 @@
+package OOP;
+
+import java.util.Scanner;
+
+public class CuentaCorriente {
+	String name;
+	int dni, balance;
+	
+	public CuentaCorriente() {
+
+	}
+
+	
+	public CuentaCorriente( String name, int dni) {
+		this.name=name;
+		this.dni=dni;
+		this.balance=0;
+	}
+	
+	public CuentaCorriente( int balance) {
+		this.balance= setBalance(balance);
+	}
+	
+	public CuentaCorriente( String name, int dni, int balance) {
+		this.name=name;
+		setSaldo(balance);
+	}
+	
+//	public void insertCostumer(Scanner keyboard) {
+//		System.out.print("gave me the name:");
+//		this.name = keyboard.next();
+//		System.out.print("gave me the dni:");
+//		this.dni = keyboard.nextInt();	
+//	}
+	
+	
+	//GETTERS AND SETTERS
+	
+	public String getNombre() {
+		return name;
+	}
+	public void setNombre(String nombre) {
+		this.name = nombre;
+	}
+
+	
+	public int getDni() {
+		return dni;
+	}
+	public void setDni(int dni) {
+		this.dni = dni;
+	}
+	
+
+	public int getSaldo() {
+		return balance;
+	}
+	public void setSaldo(int balance) {
+			if(balance<0) {
+				this.balance = balance;
+			}else {
+				this.balance = -1*balance;
+			}
+	}
+
+	
+	public void printToString() {
+		System.out.println(toString());
+	}
+
+	@Override
+	public String toString() {
+		return "CuentaCorriente [name=" + name + ", dni=" + dni + ", balance=" + balance + "]";
+	}
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+}

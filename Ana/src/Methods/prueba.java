@@ -4,7 +4,7 @@ package Methods;
 public class prueba {
 	public static void main(String[] args) {
 		
-		b(num);
+		//b(num);
 	}
 	
 	public static void a () {
