@@ -1,0 +1,13 @@
+package LightBulb;
+
+public class pruebaApp {
+	int one, two, three;
+	
+	pruebaApp(){
+		this.one=1;
+		this.two=2;
+		this.three=3;
+	}
+	
+
+}

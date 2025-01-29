@@ -1,0 +1,57 @@
+package OOP;
+
+public class books {
+	String title, isbn;
+	int pages;
+	
+	public books() {
+		
+		
+	}
+
+	
+	
+	public String getTitle() {
+		return title;
+	}
+
+
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+
+
+	public String getIsbn() {
+		return isbn;
+	}
+
+
+
+	public void setIsbn(String isbn) {
+		this.isbn = isbn;
+	}
+
+
+
+	public int getPages() {
+		return pages;
+	}
+
+
+
+	public void setPages(int pages) {
+		this.pages = pages;
+	}
+
+
+
+	@Override
+	public String toString() {
+		return "books [title=" + title + ", isbn=" + isbn + ", pages=" + pages + "]";
+	}
+	
+	
+	
+}//end public class 

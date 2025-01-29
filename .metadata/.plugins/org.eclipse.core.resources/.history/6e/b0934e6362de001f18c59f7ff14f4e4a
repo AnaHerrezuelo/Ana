@@ -1,0 +1,17 @@
+package LightBulb;
+
+public class pruebaApp2 {	
+	pruebaApp values1;
+
+	// Constructor que acepta una instancia de pruebaApp
+	pruebaApp2(pruebaApp values) {
+		this.values1 = values;
+	}
+
+	// Método para imprimir los valores de values1
+	public void printValues1() {
+		// Imprime los valores contenidos en values1 (que es una instancia de pruebaApp)
+		values1.printToString();
+	}
+	
+}

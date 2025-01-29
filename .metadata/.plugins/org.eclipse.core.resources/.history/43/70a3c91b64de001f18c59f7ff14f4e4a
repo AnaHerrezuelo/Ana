@@ -1,0 +1,23 @@
+package LightBulb;
+
+public class pruebaApp2 {	
+	String color, title;
+	
+	pruebaApp2(){
+//		this.color=color;
+//		this.title=title;
+	}
+	
+	pruebaApp2(String color, String title){
+		this.color=color;
+		this.title=title;
+	}
+
+
+
+
+    
+    
+	
+	
+}

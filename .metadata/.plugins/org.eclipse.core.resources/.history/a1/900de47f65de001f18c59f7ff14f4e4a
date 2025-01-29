@@ -1,0 +1,45 @@
+package LightBulb;
+
+public class pruebaApp2 {	
+	String color, title;
+	pruebaApp values1;
+	
+	pruebaApp2(){
+//		this.color=color;
+//		this.title=title;
+	}
+	
+	pruebaApp2(String color, String title){
+		this.color=color;
+		this.title=title;
+
+	}
+	pruebaApp2(String color, String title, int one, int two, int three){
+	this.color=color;
+	this.title=title;
+	this.app1 = new pruebaApp1(one, two,three); 
+}
+	
+//	pruebaApp2(String color, String title, int one, int two, int three){
+//		this.color=color;
+//		this.title=title;
+//		this.app1 = new pruebaApp1(one, two,three); 
+//	}
+
+	@Override
+	public String toString() {
+		return "pruebaApp2 [color=" + color + ", title=" + title + ", values1=" + values1 + "]";
+	}
+
+
+	
+	
+
+
+
+
+    
+    
+	
+	
+}

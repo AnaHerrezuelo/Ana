@@ -1,0 +1,16 @@
+package LightBulb;
+
+public class pruebaApp2 {	
+	pruebaApp values1;
+
+	pruebaApp2(pruebaApp values) {
+		this.values1 = values;
+	}
+
+
+	public void printValues1() {
+		values1.printToString();
+	}
+	
+	
+}

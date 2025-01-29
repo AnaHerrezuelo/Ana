@@ -1,0 +1,10 @@
+package LightBulb;
+
+public class mainPrueba {
+	
+	public static void main(String[] args) {
+		pruebaApp first = new pruebaApp();
+		
+		first.printToString();
+	}
+}

@@ -1,0 +1,7 @@
+package LightBulb;
+
+public class pruebaApp2 {	
+	pruebaApp values1 = new pruebaApp();
+	values1.printToString();
+	
+}

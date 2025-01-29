@@ -1,0 +1,13 @@
+package OOP;
+
+public class books {
+	String title, isbn;
+	int pages;
+	
+	public books() {
+		
+		
+	}
+	
+	
+}//end public class 
