@@ -1,6 +1,0 @@
-package LightBulb;
-
-public class pruebaApp2 {	
-	pruebaApp2 values1 = new pruebaApp2();
-	
-}
